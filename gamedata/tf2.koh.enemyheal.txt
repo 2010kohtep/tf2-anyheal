@@ -1,0 +1,40 @@
+"Games"
+{
+	"tf"
+	{
+		"Addresses"
+		{
+			"Patch_AllowedToHealTarget"
+			{
+				"linux"
+				{
+					"signature" "CWeaponMedigun::AllowedToHealTarget"
+				}
+				
+				"windows"
+				{
+					"signature" "CWeaponMedigun::AllowedToHealTarget"
+				}				
+			}		
+		}
+		
+		"Signatures"
+		{
+			"CWeaponMedigun::AllowedToHealTarget"
+			{
+				"library"	"server"
+				"windows"	"\x75\x1C\x84\xFF\x74\x6B\x8D\x8E\x68\x19\x00\x00"
+				"linux"		"\x89\x74\x24\x04\x89\x1C\x24\x88\x45\xE3"
+			}			
+		}
+		
+		"Offsets"
+		{
+			"CWeaponMedigun::AllowedToHealTarget"
+			{
+				"windows"	"0"
+				"linux"		"17"
+			}
+		}
+	}
+}
