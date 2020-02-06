@@ -2,9 +2,9 @@
 
 #include <sourcemod>
 
-#define PLUGIN_VERSION "1.1.0"
+#define PLUGIN_VERSION "1.1.1"
 
-public Plugin plugin = 
+public Plugin myinfo = 
 {
 	name = "[TF2] Allow Enemy Heal",
 	author = "2010kohtep",
